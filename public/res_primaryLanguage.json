@@ -1,0 +1,163 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": " I'm Sherif Hamam. A passionate self-taught Front-End Web Developer who loves coding and new challenges. I love building websites and have a strong passion to coding. If you have an idea, don't hesitate and let's build it together",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Comfy Sloth E-commerce",
+        "startDate": "2022",
+        "description": "E-commerce site for furniture and household items. The site contains a login/sign-up, filtering/sorting products, cart and checkout using stripe payment. Feel free to check the site pages and features",
+        "images": [
+          "images/portfolio/comfy/thumbnail.png",
+          "images/portfolio/comfy/about.png",
+          "images/portfolio/comfy/products.png",
+          "images/portfolio/comfy/singleproduct.png",
+          "images/portfolio/comfy/cart.png",
+          "images/portfolio/comfy/checkout.png"
+        ],
+        "url": "https://react-comfy-store97.netlify.app",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "name": "Redux",
+            "class": "devicon-redux-original"
+          }
+        ]
+      },
+      {
+        "title": "Ket Landing Page",
+        "startDate": "2021",
+        "description": "Company page made using only HTML and CSS. It includes Header, Services, Portfolio, About, News and Contact sections. The page represents simplicity in choosing colors and styling effects",
+        "images": [
+          "images/portfolio/ket/thumbnail.png",
+          "images/portfolio/ket/services.png",
+          "images/portfolio/ket/portofolio.png",
+          "images/portfolio/ket/portofolio2.png",
+          "images/portfolio/ket/news.png",
+          "images/portfolio/ket/opinion.png",
+          "images/portfolio/ket/contact.png"
+        ],
+        "url": "https://shiref209.github.io/landing-page-template-2/",
+        "technologies": [
+          {
+            "name": "HTML 5",
+            "class": "devicon-html5-plain"
+            
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain"
+            
+          }
+        ]
+      },
+      {
+        "title": "Leon Landing Page",
+        "startDate": "2020",
+        "description": "One of the first projects I have worked on. A landing page for a creative company to showcase their services, portfolio and contact",
+        "images": [
+          "images/portfolio/leon/thumbnail.png",
+          "images/portfolio/leon/services.png",
+          "images/portfolio/leon/portofolio.png",
+          "images/portfolio/leon/contact.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "name": "HTML 5",
+            "class": "devicon-html5-plain"
+            
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain"
+            
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "program": "BootCamp",
+        "title": "Complete Web Developer: Zero to Mastery",
+        "date": " Jul 2022",
+        "icon":"udemyIcon",
+        "mainTech": [
+          "Udemy"
+        ],
+        "technologies": [
+          "Advanced HTML5",
+          "Advanced CSS3",
+          "JavaScript",
+          "Advanced JavaScript",
+          "Git/Github",
+          "NPM",
+          "HTTP/JSON/AJAX",
+          "APIs",
+          "Node.js/Express.js",
+          "Production/Deployment"
+        ]
+      },
+      {
+        "program": "Nano-degree program",
+        "title": "React Development Cross-Skilling",
+        "date": " Feb 2022",
+        "icon":"udacityIcon",
+        "mainTech": [
+          "Udacity"
+        ],
+        "technologies": [
+          "React Components",
+          "UI Rendering",
+          "State",
+          "Lifecycle Events",
+          "Routing"
+        ]
+      },
+      {
+        "program": "Nano-degree program",
+        "title": "Web Development Professional",
+        "date": " Nov 2021",
+        "icon":"udacityIcon",
+        "mainTech": [
+          "Udacity"
+        ],
+        "technologies": [
+          "JavaScript",
+          "DOM",
+          "APIs",
+          "Asynchronous JavaScript"
+        ]
+      },
+      {
+        "program": "Nano-degree program",
+        "title": "Web Development Challenger",
+        "date": " Sep 2021",
+        "icon":"udacityIcon",
+        "mainTech": [
+          "Udacity"
+        ],
+        "technologies": [
+          "HTML",
+          "HTML5",
+          "CSS",
+          "CSS3",
+          "WordPress"
+        ]
+      }
+    ]
+  }
