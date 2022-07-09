@@ -39,6 +39,71 @@
         ]
       },
       {
+        "title": "React Food Cart",
+        "startDate": "2022",
+        "description": "Food cart was built using react functional components and context API. The app provides a food cart that can add and subtract items, calculating total and checking out",
+        "images": [
+          "images/portfolio/food-order/thumbnail.png",
+          "images/portfolio/food-order/cart.png"
+          
+        ],
+        "url": "https://shiref209.github.io/react-food-order-app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "My Reads",
+        "startDate": "2022",
+        "description": "A Book application built using react to sort the books to different categories. Also, you can add new books to the category you want from a large variety of books",
+        "images": [
+          "images/portfolio/books/thumbnail.png",
+          "images/portfolio/books/filter.png"
+          
+        ],
+        "url": "https://shiref209.github.io/react-books-application/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Face Recognition",
+        "startDate": "2021",
+        "description": "Face recognition app built using react and API. You can upload any image that contains faces, and the application automatically will detect the faces inside it.",
+        "images": [
+          "images/portfolio/face/thumbnail.png",
+          "images/portfolio/face/sign.png",
+          "images/portfolio/face/register.png",
+          "images/portfolio/face/face.png"
+          
+        ],
+        "url": "https://shiref209.github.io/face-recognition/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
         "title": "Ket Landing Page",
         "startDate": "2021",
         "description": "Company page made using only HTML and CSS. It includes Header, Services, Portfolio, About, News and Contact sections. The page represents simplicity in choosing colors and styling effects",
@@ -75,7 +140,7 @@
           "images/portfolio/leon/portofolio.png",
           "images/portfolio/leon/contact.png"
         ],
-        "url": "https://github.com",
+        "url": "https://shiref209.github.io/landing-page-template/",
         "technologies": [
           {
             "name": "HTML 5",
