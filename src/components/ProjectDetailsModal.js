@@ -12,9 +12,7 @@ class ProjectDetailsModal extends Component {
     }
   }
   render() {
-    const imageZoomHandler=()=>{
-      this.setState({isClicked:!this.state.isClicked})
-    }
+    
     if (this.props.data) {
       const technologies = this.props.data.technologies;
       const images = this.props.data.images;

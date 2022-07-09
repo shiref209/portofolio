@@ -9,7 +9,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -23,9 +22,9 @@ class App extends Component {
     // this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
     var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+      document.documentElement.lang === window.$primaryLanguage &&
+      `res_primaryLanguage.json`;
+
     this.loadResumeFromPath(resumePath);
   }
 
@@ -45,7 +44,7 @@ class App extends Component {
   componentDidMount() {
     this.loadSharedData();
     this.applyPickedLanguage(
-      window.$primaryLanguage,
+      window.$primaryLanguage
       // window.$secondaryLanguageIconId
     );
   }
@@ -84,20 +83,8 @@ class App extends Component {
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
-          <div
-            
-            
-            style={{ display: "inline" }}
-          >
-          
-          </div>
-          <div
-          
-            
-            style={{ display: "inline" }}
-          >
-        
-          </div>
+          <div style={{ display: "inline" }}></div>
+          <div style={{ display: "inline" }}></div>
         </div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}

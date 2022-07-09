@@ -17,7 +17,7 @@ class Experience extends Component {
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
-        const icon=work.icon;
+        
         const certificateHandler=(e)=>{
           e.preventDefault();
           window.open("https://www.linkedin.com/in/sherif-hamam-b0b081124/details/certifications/", "_blank");
