@@ -37,7 +37,7 @@ class ProjectDetailsModal extends Component {
         });
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} style={{height:'90vh'}} />;
+            return <div key={i} data-src={elem} style={{height:'100%'}} />;
           });
         }
       }
